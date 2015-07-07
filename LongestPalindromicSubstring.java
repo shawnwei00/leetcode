@@ -3,7 +3,7 @@
  * length of S is 1000, and there exists one unique longest palindromic substring.
  */
 
-public class longestPalindromeSubstring {
+public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         if (s == null) return null;
         if (s.length() == 0) return s;
